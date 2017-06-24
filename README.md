@@ -8,6 +8,23 @@ Azure
 	Storage
 	Cdn
 
+## Setup
+
+- Rename Files, Folders, and Contents
+	- Rename `ProjNamePascal` to project name in PascalCase
+	- Rename `projNameCamel` to project name in camelCase
+	- Rename `projnamelower` to project name in lowercase
+	- Rename `proj-name-kabob` to project name in kabob-case
+ 	- Known Files:
+		- `_deploy/proxies.json`
+		- `src-client/postinstall.js`
+		- `src-server/package.js`
+		- `src-client/package.js`
+
+- Upload FacebookSDK .zip for Azure Mobile Center
+	- Default Path in `src-client/postinstall.js` is `https://NAME_LOWER.blob.core.windows.net/build-files/FacebookSDKs-iOS-4.22.1.zip`
+
+
 ## Build, Run, & Deploy
 
 ### Build 
