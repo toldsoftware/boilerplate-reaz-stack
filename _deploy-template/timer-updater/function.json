@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "updaterTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 * * * * *"
+    }
+  ],
+  "disabled": false
+}

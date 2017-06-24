@@ -32,6 +32,8 @@ Azure
 ### Deploy
 
 - Setup (One Time)
+	- Copy `_deploy-template` to `_deploy`
+	- Modify Paths in `_deploy/proxies.json` to point to actual function (Replace FUNCTION with correct sub domain)
 	- Setup the _deploy folder as a seperate git repo with online service (Github, Bitbucket, etc.)
 	- Create an Azure Functions Instance and setup git deploy to point to online _deploy repo
 

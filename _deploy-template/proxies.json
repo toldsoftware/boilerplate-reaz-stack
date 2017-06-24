@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "Static": {
+            "matchCondition": {
+                "route": "static/{*file}"
+            },
+            "backendUri": "https://FUNCTION.azurewebsites.net/fun-static?file={file}"
+        },
+        "App": {
+            "matchCondition": {
+                "route": "app/{*file}"
+            },
+            "backendUri": "https://FUNCTION.azurewebsites.net/fun-static?file=app/"
+        },
+        "CustomReactRoute": {
+            "matchCondition": {
+                "route": "custom/{*file}"
+            },
+            "backendUri": "https://FUNCTION.azurewebsites.net/fun-static?file=app/"
+        },
+        "Root": {
+            "matchCondition": {
+                "route": "",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "backendUri": "https://FUNCTION.azurewebsites.net/fun-static?file=app/"
+        }
+    }
+}
