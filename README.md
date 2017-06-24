@@ -21,6 +21,21 @@ Azure
 		- `src-server/package.js`
 		- `src-client/package.js`
 
+- Other Items
+	- Newsfeed Facebook Page Ids
+	- Feedback Url (Google Forms)
+
+- Setup App Settings
+	- Settings
+		- `AZURE_STORAGE_CONNECTION_STRING`
+		- `FacebookAppId`
+		- `FacebookAppSecret`
+	- Testing
+		- Copy `.vscode/launch-template.json` to `.vscode/launch.json`
+		- Set setting values for localhost:3100
+	- Server
+		- Add App settings in Application Settings Tab in Azure Portal
+
 - Upload FacebookSDK .zip for Azure Mobile Center
 	- Default Path in `src-client/postinstall.js` is `https://NAME_LOWER.blob.core.windows.net/build-files/FacebookSDKs-iOS-4.22.1.zip`
 

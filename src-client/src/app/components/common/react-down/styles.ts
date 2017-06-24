@@ -1,0 +1,1 @@
+export { pageStyles as styles } from '../../../styles';
