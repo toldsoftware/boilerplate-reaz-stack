@@ -1,0 +1,23 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "declaration": false,
+    "noResolve": false,
+    "module": "commonjs",
+    "target": "es2015",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "./build",
+    "types": [
+      "node"
+    ],
+    "lib": ["dom", "es5", "es2015"]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

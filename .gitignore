@@ -1,0 +1,12 @@
+node_modules
+build
+dist
+_extra
+_deploy
+__generated__
+
+# Ignore Data (Available in Google Docs)
+/Data
+
+# Ignore Launch Settings
+.vscode/launch.json
